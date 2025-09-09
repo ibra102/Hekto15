@@ -14,12 +14,21 @@ ul{
 :root{
     --mainColor: #FB2E86;
     --mainFont:"Lato", sans-serif;
+    --ancorColor:#8A8FB9;
 }
 
 .row{
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+}
+
+.d-flex{
+display:flex;
+}
+.d-direction{
+flex-direction: column;
 }
 
 .btn{
@@ -35,7 +44,7 @@ ul{
 
 .btn-primary{
      background-color: var(--mainColor);  
-    padding: 20px 48px ;
+    padding: 10px 30px ;
 }
 
 .btn-secondry{
@@ -43,9 +52,30 @@ ul{
 }
 
 .container{
-
     width: calc(100% - 300px);
     margin:auto;  
-    
+}
 
+.gap-5{
+    gap:5px;
+}
+
+.gap-10{
+    gap:10px;
+}
+
+.gap-15{
+    gap:15px;
+}
+
+
+.gap-45{
+gap:45px;
+}
+.gap-25{
+    gap:25px;
+}
+
+.gap-100{
+    gap:100px;
 }

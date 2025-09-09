@@ -1,7 +1,10 @@
-.header{
+body{
 font-family: var(--mainFont);
-padding:47px 0px;
 
+
+}
+.header{
+    padding :47px;
 }
 .header .list ul{
 
@@ -23,7 +26,15 @@ color:#0D0E43;
 .search form{
 border: 1px solid #E7E6EF;
 }
+.sign-up input{
+    border:none;
+    outline:none;
+    padding:3px;
+}
 
+.sign-up form{
+border: 1px solid #E7E6EF;
+}
 
 .header .bar{
     display:none;
@@ -38,4 +49,34 @@ border: 1px solid #E7E6EF;
             display: block;
            }
 
+}
+
+
+.footer {
+background-color:#EEEFFB;
+padding:50px 0;
+}
+.footer .left-side{
+    align-items: flex-start;
+}
+.left-side p{
+color:var(--ancorColor);
+}
+.left-side address{
+color:var(--ancorColor);
+}
+
+
+
+.right-side a{
+    color:var(--ancorColor);
+}
+
+.right-side h2{
+    font-family:"Josefin Sans", sans-serif;
+}
+
+.items3 h2{
+
+    padding-top:40px ;
 }
