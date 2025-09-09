@@ -1,0 +1,41 @@
+.header{
+font-family: var(--mainFont);
+padding:47px 0px;
+
+}
+.header .list ul{
+
+    display:flex ;
+    gap:35px;
+
+}
+.list a{
+
+color:#0D0E43;
+
+}
+.search input{
+    border:none;
+    outline:none;
+    padding:3px;
+}
+
+.search form{
+border: 1px solid #E7E6EF;
+}
+
+
+.header .bar{
+    display:none;
+}
+
+@media screen and (max-width:800px) {
+         .list,.search{
+             display: none;
+           }
+      
+           .header .bar{
+            display: block;
+           }
+
+}
