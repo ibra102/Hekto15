@@ -61,9 +61,10 @@ border: 1px solid #E7E6EF;
  gap:15px;
 }
 .products .product{
+
 flex-grow: 1;
 flex-shrink: 0;
-flex-basis: 350px;
+flex-basis: 200px;
 box-shadow: 0px 4px 4px #00000040;
 }
 
@@ -76,8 +77,9 @@ font-family:"Josefin Sans", sans-serif;
 
 .product img{
     height: 178px;
+    width:150px;
     background-color: #F6F7FB;
-    padding: 30px;
+    padding: 25px 71px;
     object-fit: contain;
 }
 
@@ -97,19 +99,25 @@ font-family:"Josefin Sans", sans-serif;
 }
 .product .product-info{
     color:#151875;
-    padding:28px 0px;
+    padding:30px 0px;
 }
 
 .product-details {
 transition-property: background-color;
 transition-duration: 1.5s ;
 }
+.product-info {
+transition-property: color;
+transition-duration: 1.5s ;
+}
 
 .producthover:hover {
 
     background-color: #151875;
+
    
     .product-info{
+
         color:#EEEFFB;
     }
 }
