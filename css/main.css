@@ -52,6 +52,48 @@ border: 1px solid #E7E6EF;
 }
 
 
+
+
+
+
+.newslater{
+background-image: url("C:/Users/hp/Documents/Full Stack 15/Hekto project/images/Rectangle.webp");
+padding: 170px;
+text-align: center;
+}
+.newslater h2{
+    margin-bottom: 30px;
+    font-family:"Josefin Sans", sans-serif;
+    color:#151875;
+}
+.newslater a{
+font-family:"Josefin Sans", sans-serif;
+color:white;
+
+}
+
+
+.clients .row {
+
+flex-wrap: nowrap;
+
+}
+.clients{
+    padding: 50px 0;
+}
+
+
+@media screen and (max-width:800px) {
+    
+.clients .brands{
+
+    overflow: auto;
+
+}
+}
+
+
+
 .footer {
 background-color:#EEEFFB;
 padding:50px 0;
@@ -66,10 +108,22 @@ color:var(--ancorColor);
 color:var(--ancorColor);
 }
 
+.left-side button{
+
+font-family:"Josefin Sans", sans-serif;
+color:white;
+
+}
+
+.left-side input{
+
+padding: 8px;
+}
 
 
 .right-side a{
     color:var(--ancorColor);
+  font-family: var(--mainFont);
 }
 
 .right-side h2{
