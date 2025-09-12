@@ -51,8 +51,68 @@ border: 1px solid #E7E6EF;
 
 }
 
+.products{
+    padding:55px 0px;
+}
+
+.products .row{
+
+ justify-content: flex-start;
+ gap:15px;
+}
+.products .product{
+flex-grow: 1;
+flex-shrink: 0;
+flex-basis: 350px;
+box-shadow: 0px 4px 4px #00000040;
+}
+
+.products h2{
+    font-size: 30px;
+    padding-bottom:20px;
+color:#1A0B5B;
+font-family:"Josefin Sans", sans-serif; 
+}
+
+.product img{
+    height: 178px;
+    background-color: #F6F7FB;
+    padding: 30px;
+    object-fit: contain;
+}
+
+.products button{
+    border:none;
+    outline:none;
+    padding: 3px 0px;
+    border-radius: 3px;
+    margin-right: 2px;
+}
 
 
+.products h3{
+    color:#FB2E86;
+     font-family:"Josefin Sans", sans-serif;
+     margin-top: 3px;
+}
+.product .product-info{
+    color:#151875;
+    padding:28px 0px;
+}
+
+.product-details {
+transition-property: background-color;
+transition-duration: 1.5s ;
+}
+
+.producthover:hover {
+
+    background-color: #151875;
+   
+    .product-info{
+        color:#EEEFFB;
+    }
+}
 
 
 
@@ -62,6 +122,7 @@ padding: 170px;
 text-align: center;
 }
 .newslater h2{
+    font-size: 30px;
     margin-bottom: 30px;
     font-family:"Josefin Sans", sans-serif;
     color:#151875;
@@ -69,8 +130,10 @@ text-align: center;
 .newslater a{
 font-family:"Josefin Sans", sans-serif;
 color:white;
-
 }
+
+
+
 
 
 .clients .row {
