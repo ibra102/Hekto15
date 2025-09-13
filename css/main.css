@@ -123,6 +123,66 @@ transition-duration: 1.5s ;
 }
 
 
+.leatest-products{
+    padding:60px;
+}
+
+.leatest-products .row{
+
+ justify-content: flex-start;
+ gap:15px;
+ padding: 30px 0px;
+}
+.leatest-products .item{
+    flex-grow:1;
+    flex-basis: 200px;
+}
+
+.leatest-products h2{
+font-family:"Josefin Sans", sans-serif;
+color:#1A0B5B;
+
+}
+
+.leatest-products .list .row{
+justify-content: center;
+gap:40px;
+padding-bottom: 0px;
+}
+
+.leatest-products img{
+    object-fit: contain;
+    height: 250px;
+    width: 250px;
+    background-color: #EEEFFB;
+}
+
+
+.item-details .old-price{
+text-decoration: line-through;
+color:red;
+}
+.item-details .new-price{
+margin-right: 2px;
+padding-left: 30px;
+font-weight: bold;
+}
+
+.leatest-products  span {
+font-family:"Josefin Sans", sans-serif;
+color:#1A0B5B;   
+}
+
+.leatest-products .list a:hover{
+
+color:#FB2E86;
+text-decoration-line: underline;
+}
+
+
+
+
+
 
 .newslater{
 background-image: url("C:/Users/hp/Documents/Full Stack 15/Hekto project/images/Rectangle.webp");
