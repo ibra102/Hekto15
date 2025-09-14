@@ -185,7 +185,7 @@ text-decoration-line: underline;
 
 
 .newslater{
-background-image: url("/images/Rectangle.webp");
+background-image: url("../images/Rectangle.webp");
 padding: 170px;
 text-align: center;
 }
