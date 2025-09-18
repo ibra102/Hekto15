@@ -4,7 +4,7 @@ font-family: var(--mainFont);
 
 }
 .header{
-    padding :47px;
+    padding :40px;
 }
 .header .list ul{
 
@@ -50,6 +50,55 @@ border: 1px solid #E7E6EF;
            }
 
 }
+
+
+.hero{
+    background-color: #F2F0FF;
+    height: 90vh;
+}
+
+
+.hero .title h2{
+    font-size: 30px;
+    font-family:"Josefin Sans", sans-serif; 
+    font-weight: 500;
+
+}
+
+.hero .paragraph p{
+    color:var(--mainColor);
+}
+.hero .some-info{
+    color:#8A8FB9;
+}
+
+.hero span {
+    white-space: pre-line; 
+}
+.hero h2{
+    white-space: pre-line; 
+}
+
+.hero .right-side img{
+   
+    width: 500px;
+    height: 500px;
+    margin-top: 60px;
+}
+.hero .right-side{
+    background-image: url(../images/herochaircover.webp);
+    background-position-x:center ;
+    background-position-y:center ;
+        background-size: cover;
+        padding-top: 70px  ;
+        padding-right: 140px;
+       
+}
+.hero a{
+      color:#EEEFFB;
+}
+
+
 
 .products{
     padding:55px 0px;
@@ -104,14 +153,14 @@ font-family:"Josefin Sans", sans-serif;
 
 .product-details {
 transition-property: background-color;
-transition-duration: 1.5s ;
+transition-duration: 1s ;
 }
 .product-info {
 transition-property: color;
-transition-duration: 1.5s ;
+transition-duration: 1s ;
 }
 
-.producthover:hover {
+.product-details:hover {
 
     background-color: #151875;
 
@@ -179,10 +228,90 @@ color:#FB2E86;
 text-decoration-line: underline;
 }
 
+.shopex{
+    padding:47px 0px;
+}
+
+.shopex .row{
+
+ justify-content: flex-start;
+ gap:15px;
+}
+
+
+.shopex .details p{
+    white-space: pre-line; 
+}
+.shopex img{
+    height: 50px;
+}
+
+.shopex .title {
+padding: 40px 0px;
+font-family:"Josefin Sans", sans-serif;
+color:#1A0B5B;   
+font-size: xx-large;
+}
+
+.shopex  .Offer{
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 50px 0px;
+    box-shadow: 0px 1px 1px #00000040;
+       transform: scale(0.9);
+        transform-origin: center;
+}
+
+.shopex .details h2{
+    color:#1A0B5B; 
+    margin-bottom: 15px; 
+}
+
+.shopex .details p{
+    color: #1A0B5B;
+    font-family: var(--mainFont);
+}
+
+
+.trending-products{
+     padding:47px 0px;
+}
 
 
 
+.trending-products .title{
+      padding: 20px 0px;
+    font-family:"Josefin Sans", sans-serif;
+color:#1A0B5B;   
+font-size: xx-large;
+}
 
+
+.trending-products  .trend{
+    padding: 50px 0px;
+    flex-grow: 1;
+    flex-basis: 300px; 
+        box-shadow: 0px 1px 1px #00000040;
+       transform: scale(0.9);
+        transform-origin: center;
+}
+.trending-products img{
+    height: 200px;
+    
+}
+
+.trending-products .old-price{
+text-decoration: line-through;
+color:red;
+}
+
+.trending-products .new-price{
+margin-right: 5px;
+font-weight: bold;
+}
+.trending-products span{
+    color:#151875;
+}
 
 .newslater{
 background-image: url("../images/Rectangle.webp");
@@ -199,9 +328,6 @@ text-align: center;
 font-family:"Josefin Sans", sans-serif;
 color:white;
 }
-
-
-
 
 
 .clients .row {
