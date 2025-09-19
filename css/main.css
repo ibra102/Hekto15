@@ -54,6 +54,7 @@ border: 1px solid #E7E6EF;
 .hero{
     background-color: #F2F0FF;
     height: 90vh;
+    
 }
 
 
@@ -78,13 +79,35 @@ border: 1px solid #E7E6EF;
     white-space: pre-line; 
 }
 
-.hero .right-side img{
-   
+.hero .right-side .img{
     width: 500px;
     height: 500px;
     margin-top: 60px;
+  
+
 }
+
 .hero .right-side{
+    position: relative;
+}
+.hero .sale50 {
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top:0%;
+    left:70%;
+}
+.hero .right-side span{
+  
+position: absolute;
+top:40%;
+    left:80%;
+
+}
+
+
+.hero .right-side {
     background-image: url(../images/herochaircover.webp);
     background-position-x:center ;
     background-position-y:center ;
@@ -214,12 +237,73 @@ transition-timing-function: ease;
 .leatest-products .item{
     flex-grow:1;
     flex-basis: 200px;
+   position: relative;
+   margin:auto;
+ 
 }
+
+
+
+.leatest-products .item .sale{
+position:absolute;
+width: 80px;
+height: 80px;
+top:0%;
+left:12%;
+background-color: transparent;
+opacity: 0;
+transition: opacity 0.5s ease;
+}
+
+.item:hover .sale{
+    opacity: 1;
+}
+
+.leatest-products .item .options .cart{
+position:absolute;
+width: 75px;
+height: 75px;
+top:40%;
+left:9.5%;
+ background-color: transparent;
+
+}
+
+.leatest-products .item .options .heart{
+position:absolute;
+width: 30px;
+height: 30px;
+top:60%;
+left:14%;
+ background-color: transparent;
+
+}
+
+.leatest-products .item .options .search{
+position:absolute;
+width: 30px;
+height: 30px;
+top:70%;
+left:14%;
+ background-color: transparent;
+
+}
+
+.leatest-products .item .options{
+opacity: 0;
+transition: opacity 0.5s ease;
+}
+
+.item:hover .options{
+    opacity: 1;
+}
+
+
+
 
 .leatest-products h2{
 font-family:"Josefin Sans", sans-serif;
 color:#1A0B5B;
-
 }
 
 .leatest-products .list .row{
@@ -233,6 +317,7 @@ padding-bottom: 0px;
     height: 250px;
     width: 250px;
     background-color: #EEEFFB;
+    transform: scale(0.8);
 }
 
 
@@ -357,8 +442,6 @@ font-weight: bold;
     padding: 50px 0px;
     flex-grow: 1;
     flex-basis: 200px; 
-    
-       
        position: relative;
         margin: auto;
         transform: scale(0.9);
