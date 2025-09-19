@@ -120,6 +120,17 @@ top:40%;
       color:#EEEFFB;
 }
 
+@media screen and (max-width:1000px) {
+       .hero{
+        padding-bottom: 200px;
+       }
+       .hero .left-side{
+        padding-bottom: 20px;
+       }
+
+}
+
+
 
 
 .products{
@@ -127,7 +138,6 @@ top:40%;
 }
 
 .products .row{
-
  justify-content: flex-start;
  gap:15px;
 }
@@ -507,18 +517,6 @@ font-size: xx-large;
 padding: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .newslater{
 background-image: url("../images/Rectangle.webp");
 padding: 170px;
@@ -553,6 +551,64 @@ flex-wrap: nowrap;
     overflow: auto;
 
 }
+}
+
+
+.leatest-blog{
+padding: 60px 0px;
+}
+
+.leatest-blog  .blog{
+    padding: 50px 0px;
+    flex-grow: 1;
+    flex-basis: 300px; 
+    align-items: center;
+    transition: color 0.4s ease;
+}
+
+
+.leatest-blog .blog:hover h2{
+    color:#FB2E86;
+}
+.leatest-blog .blog:hover a{
+    color:#FB2E86;
+}
+
+.leatest-blog .blog-details{
+    align-items: center;
+  
+}
+
+
+.leatest-blog h2{
+    font-family:"Josefin Sans", sans-serif;
+    color:#151875;
+    padding: 30px 0px;
+    font-size: xx-large;
+    margin-right: 50px;
+}
+.leatest-blog .logos p{
+font-family:"Josefin Sans", sans-serif;
+    color:#151875;
+
+}
+
+.leatest-blog .det p{
+    color:#72718F;
+    white-space:pre-line;
+}
+
+.leatest-blog .det h2{
+    padding-top:30px;
+    font-family:"Josefin Sans", sans-serif;
+    color:#151875;
+    font-size: x-large;
+
+}
+
+.leatest-blog .det a{
+    text-decoration: underline;
+    color:#151875;
 }
 
 
