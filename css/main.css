@@ -223,6 +223,8 @@ transition-timing-function: ease;
 
         opacity: 0;
    transition: all 0.5s ease;
+   
+
 }
 
 .product:hover .btn{
@@ -260,6 +262,7 @@ transition-timing-function: ease;
     flex-basis: 200px;
    position: relative;
    margin:auto;
+ 
  
 }
 
@@ -329,15 +332,19 @@ gap:40px;
 padding-bottom: 0px;
 }
 
-.leatest-products img{
+.leatest-products .item img{
     object-fit: contain;
     height: 250px;
     width: 250px;
     background-color: #EEEFFB;
     transform: scale(0.8);
+    transition: all 0.3s ease;
+   
 }
 
-
+.leatest-products .item img:hover{
+transform: translateY(-5px);
+}
 
 
 
@@ -432,10 +439,11 @@ font-size: xx-large;
         box-shadow: 0px 1px 1px #00000040;
        transform: scale(0.9);
         transform-origin: center;
+       
 }
 .trending-products img{
     height: 200px;
-    
+     transition:all 0.5s ease;
 }
 
 .trending-products .old-price{
@@ -450,6 +458,17 @@ font-weight: bold;
 .trending-products span{
     color:#151875;
 }
+
+.trending-products img:hover{
+
+    transform: translateY(-10px);
+
+
+}
+
+
+
+
 
 .top-cat{
     padding: 47px 0px;
@@ -469,13 +488,14 @@ font-weight: bold;
 .top-cat .trend span{
          font-family:"Josefin Sans", sans-serif;
             color:#1A0B5B;
+
 }
 
 .top-cat .circle{
     padding: 40px 40px;
     border-radius: 50%;
     background-color:#F6F7FB;
-    position: relative;
+   position: relative;
      margin: auto;
      border: 3px solid transparent;
     transition-property: border;
@@ -485,6 +505,7 @@ font-weight: bold;
     transition-duration: 0.5s ;
     transition-timing-function: ease;
      overflow: hidden;
+
 }
 
 
@@ -502,14 +523,17 @@ font-weight: bold;
    transition: all 0.5s ease;
 }
 .top-cat img {
+
      height: 150px;
     width:150px;
     object-fit: cover;
 }
 
 .circle:hover {
-  border: 3px solid #7b3ff2;
-  box-shadow: 0 0 20px rgba(123, 63, 242, 0.5);
+ box-shadow: -10px 5px 0 0px #9877E7;
+    
+  border-radius: 50%;
+
 }
 
 .circle:hover .btn{
@@ -571,7 +595,7 @@ padding: 60px 0px;
 .leatest-blog  .blog{
     padding: 50px 0px;
     flex-grow: 1;
-    flex-basis: 300px; 
+    flex-basis: 350px; 
     align-items: center;
     transition: color 0.4s ease;
 }
