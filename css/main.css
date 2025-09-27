@@ -129,8 +129,8 @@ top:40%;
 .hero .right-side h2{
     position: absolute;
     padding: 50px 25px;
-  top:50%;
-  left:10%;
+  top:3%;
+  left:72%;
     color: wheat;
     font-size: xx-large;
 }
@@ -153,14 +153,15 @@ top:40%;
 
   .hero .sale50 img{
 
-      width:50px; 
+      width:70px; 
       
-        margin-top: 50px;
+     margin-top: 50px;
   }
-  .hero .sale50 h2{
+  .hero .right-side h2{
     font-size: medium;
-    top:200%;
-       
+    top:7%;
+    left:69%;
+    
   }
   
     .hero {
@@ -173,9 +174,6 @@ top:40%;
     }
 
 }
-
-
-
 
 .products{
     padding:55px 0px;
@@ -408,7 +406,7 @@ text-decoration-line: underline;
 
 .shopex .row{
 
- 
+ justify-content: flex-start;
  gap:15px;
 }
 
@@ -449,9 +447,14 @@ font-size: xx-large;
 
 @media screen and (max-width: 800px) {
   .shopex {
-   padding-left: 100px;
+   padding-left: 15px;
   }
+ .shopex .container .Offer{
 
+    padding: 0px 80px;
+  
+
+ }
 }
 
 
