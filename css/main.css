@@ -1,6 +1,6 @@
 body{
 font-family: var(--mainFont);
-
+overflow-x: hidden;
 }
 .header{
     padding :40px;
@@ -137,9 +137,7 @@ top:40%;
 
 
 @media screen and (max-width:800px) {
-       .hero{
-        padding-bottom: 350px;
-       }
+      
        .hero .left-side{
         padding-bottom: 20px;
        }
@@ -157,20 +155,16 @@ top:40%;
       
      margin-top: 50px;
   }
-  .hero .right-side h2{
-    font-size: medium;
-    top:7%;
-    left:69%;
-    
-  }
   
     .hero {
         background-color: transparent;
         
     } 
+    
+
+
     .hero .right-side{
-        background-repeat: no-repeat;
-        background-size: 350px;
+        display: none;
     }
 
 }
@@ -278,13 +272,23 @@ transition-timing-function: ease;
 }
 
 
+@media screen and (max-width:800px) {
+    .products .row{
+        justify-content: center;
+    }
+
+}
+
+
+
+
 .leatest-products{
     padding:60px;
 }
 
 .leatest-products .row{
     
- justify-content: flex-start;
+ justify-content: center;
  gap:15px;
  padding: 30px 0px;
 }
@@ -406,7 +410,7 @@ text-decoration-line: underline;
 
 .shopex .row{
 
- justify-content: flex-start;
+ justify-content: center;
  gap:15px;
 }
 
@@ -462,7 +466,14 @@ font-size: xx-large;
      padding:47px 0px;
 }
 
+.trending-products .row{
 
+    justify-content: center;
+}
+.trending-products {
+
+    justify-content: center;
+}
 
 .trending-products .title{
       padding: 20px 0px;
@@ -512,13 +523,11 @@ font-weight: bold;
 
 
 
-
-
 .top-cat{
     padding: 47px 0px;
 }
 .top-cat .row{
-    justify-content: flex-start;
+    justify-content: center;
     gap:15px;
 }
 .top-cat  .trend{
@@ -597,31 +606,59 @@ padding: 30px;
 
 .newslater{
 background-image: url("../images/Rectangle.webp");
-padding: 170px;
+ max-width: 100%;
+min-height: 300px;
 text-align: center;
+background-size: cover;
+ background-position: center; 
+  background-repeat: no-repeat;
+    padding: 40px 20px; 
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.newslater h2{
-    font-size: 30px;
-    margin-bottom: 30px;
-    font-family:"Josefin Sans", sans-serif;
-    color:#151875;
+.newslater {
+  background-image: url("../images/Rectangle.webp");
+  width: 100%;
+  min-height: 300px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.newslater button{
-font-family:"Josefin Sans", sans-serif;
-color:white;
+
+.newslater h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #151875;
+}
+
+.newslater button {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
 }
 
 @media screen and (max-width: 800px) {
   .newslater h2 {
-   font-size: large;
+    font-size: large;
   }
-  
- .newslater .btn-primary{
+
+  .newslater .btn-primary {
     padding: 10px 2px;
-    
- }
+  }
 
-
+  .newslater {
+    background-position: top;
+    min-height: 250px;
+    padding: 30px 0px;
+  }
 }
 
 
@@ -650,10 +687,14 @@ flex-wrap: nowrap;
 padding: 60px 0px;
 }
 
+
+
+
 .leatest-blog  .blog{
     padding: 50px 0px;
     flex-grow: 1;
-    flex-basis: 350px; 
+
+    flex-basis: 250px; 
     align-items: center;
     transition: color 0.4s ease;
 }
@@ -672,6 +713,15 @@ padding: 60px 0px;
 }
 
 
+.leatest-blog .img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
 .leatest-blog h2{
     font-family:"Josefin Sans", sans-serif;
     color:#151875;
@@ -702,6 +752,19 @@ font-family:"Josefin Sans", sans-serif;
     text-decoration: underline;
     color:#151875;
 }
+
+
+@media screen and (max-width:800px) {
+ .leatest-blog .row{
+    justify-content: center;
+ }
+
+.leatest-blog .blog{
+    width: 300px;
+}
+
+}
+
 
 
 
