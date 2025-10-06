@@ -718,10 +718,13 @@ padding: 60px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
+    
 }
+
+.leatest-blog .im{
+    width: 100%;
+}
+
 .leatest-blog h2{
     font-family:"Josefin Sans", sans-serif;
     color:#151875;
@@ -760,8 +763,14 @@ font-family:"Josefin Sans", sans-serif;
  }
 
 .leatest-blog .blog{
-    width: 300px;
+   
 }
+.leatest-blog .container{
+    width: calc(100% - 30px);
+    margin: auto;
+}
+
+
 
 }
 
